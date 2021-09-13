@@ -1,0 +1,7 @@
+const SAMPLEDATA = [
+  {'id': 1, 'title': 'Sample 1', 'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus commodi quia dolores error dolor iste ab? Sed cumque tempora quia illum omnis cum voluptatibus repellat ducimus accusamus culpa, fugit, dolorum debitis nam quaerat deleniti veritatis. Nostrum, possimus officiis. Earum, quos!', 'deadline': '25/12/2021'}, {'id': 2, 'title': 'Sample 2', 'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus commodi quia dolores error dolor iste ab? Sed cumque tempora quia illum omnis cum voluptatibus repellat ducimus accusamus culpa, fugit, dolorum debitis nam quaerat deleniti veritatis. Nostrum, possimus officiis. Earum, quos!', 'deadline': '25/12/2021'}, {'id': 3, 'title': 'Sample 3', 'description': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus commodi quia dolores error dolor iste ab? Sed cumque tempora quia illum omnis cum voluptatibus repellat ducimus accusamus culpa, fugit, dolorum debitis nam quaerat deleniti veritatis. Nostrum, possimus officiis. Earum, quos!', 'deadline': '25/12/2021'}
+]
+
+const CATEGORIES = ["All", "CSS", "Python", "JavaScript", "HTML", "Other"]
+
+export { SAMPLEDATA, CATEGORIES}
