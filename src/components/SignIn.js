@@ -23,8 +23,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SignIn() {
   
-  
-
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [error, setError] = useState("")
@@ -50,7 +48,6 @@ export default function SignIn() {
 
   async function handleDemoLogin(e) {
     e.preventDefault();
-
     try {
       setError("")
       await login(process.env.REACT_APP_demoUserLogin, process.env.REACT_APP_demoUserPass);

@@ -46,5 +46,9 @@ export function AuthProvider({ children }) {
       {!loading && children}
     </AuthContext.Provider>
   )
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 23017f14fff23d2b09a50af45474a1a91868f346
